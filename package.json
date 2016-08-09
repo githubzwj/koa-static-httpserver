@@ -1,0 +1,37 @@
+{
+  "name": "koa-static-httpserver",
+  "version": "1.0.5",
+  "description": "koa static httpserver cli  -- hs",
+  "main": "app.js",
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "bin": {
+    "hs": "./bin/app.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "koa": "^1.2.1",
+    "koa-compress": "^1.0.9",
+    "koa-conditional-get": "^1.0.3",
+    "koa-etag": "^2.1.1",
+    "koa-favicon": "^1.2.1",
+    "koa-static": "^2.0.0",
+    "open": "0.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/githubzwj/koa-static-httpserver.git"
+  },
+  "keywords": [
+    "static",
+    "httpserver"
+  ],
+  "author": "zhuwenjun",
+  "license": "ISC"
+}
